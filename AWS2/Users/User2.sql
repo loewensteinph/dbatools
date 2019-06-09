@@ -1,0 +1,4 @@
+﻿CREATE USER [User2]
+	FOR LOGIN Login2
+	WITH DEFAULT_SCHEMA = dbo
+GO

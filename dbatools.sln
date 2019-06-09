@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AWS1", "AWS1\AWS1.sqlproj", "{2B042AA0-AA76-45E7-B2D2-2DBDFD40B40B}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SERVER", "SERVER\SERVER.sqlproj", "{93F4A927-D111-42A6-AF6D-D710CB01CBD0}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AWS2", "AWS2\AWS2.sqlproj", "{41034761-074B-4CB3-9B28-DF224144215C}"
+EndProject
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "DBATOOLS", "DBATOOLS\DBATOOLS.pssproj", "{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{594E1C0C-DA11-4998-A608-10B622E0F89A}"
+	ProjectSection(SolutionItems) = preProject
+		DBATOOLS.pptx = DBATOOLS.pptx
+		DBATOOLS.vsdx = DBATOOLS.vsdx
+		PERFORMANCE_DASHBOARD.pbix = PERFORMANCE_DASHBOARD.pbix
+	EndProjectSection
+EndProject
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "DBATOOLHELPER", "DBATOOLS_MODULE\DBATOOLHELPER.pssproj", "{30C0B052-DE00-47B7-A83A-C56EE46AA74E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B042AA0-AA76-45E7-B2D2-2DBDFD40B40B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B042AA0-AA76-45E7-B2D2-2DBDFD40B40B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B042AA0-AA76-45E7-B2D2-2DBDFD40B40B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2B042AA0-AA76-45E7-B2D2-2DBDFD40B40B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B042AA0-AA76-45E7-B2D2-2DBDFD40B40B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B042AA0-AA76-45E7-B2D2-2DBDFD40B40B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{93F4A927-D111-42A6-AF6D-D710CB01CBD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93F4A927-D111-42A6-AF6D-D710CB01CBD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93F4A927-D111-42A6-AF6D-D710CB01CBD0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{93F4A927-D111-42A6-AF6D-D710CB01CBD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93F4A927-D111-42A6-AF6D-D710CB01CBD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93F4A927-D111-42A6-AF6D-D710CB01CBD0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{41034761-074B-4CB3-9B28-DF224144215C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41034761-074B-4CB3-9B28-DF224144215C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41034761-074B-4CB3-9B28-DF224144215C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{41034761-074B-4CB3-9B28-DF224144215C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41034761-074B-4CB3-9B28-DF224144215C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41034761-074B-4CB3-9B28-DF224144215C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30C0B052-DE00-47B7-A83A-C56EE46AA74E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C0B052-DE00-47B7-A83A-C56EE46AA74E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C0B052-DE00-47B7-A83A-C56EE46AA74E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C0B052-DE00-47B7-A83A-C56EE46AA74E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D1F895B-E773-4391-9D0B-9E50E8D1EA3D}
+	EndGlobalSection
+EndGlobal

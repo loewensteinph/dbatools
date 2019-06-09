@@ -1,0 +1,3 @@
+﻿CREATE SERVER ROLE [ServerRole1]
+GO
+ALTER SERVER ROLE [ServerRole1] ADD MEMBER Login1

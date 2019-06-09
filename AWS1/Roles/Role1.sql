@@ -1,0 +1,3 @@
+﻿CREATE ROLE [Role1]
+GO
+ALTER ROLE [Role1] ADD MEMBER [User1]
