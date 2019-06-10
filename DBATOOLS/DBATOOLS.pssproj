@@ -35,8 +35,10 @@
     <Content Include="..\..\..\..\..\..\Temp\reset.txt">
       <Link>reset.txt</Link>
     </Content>
+    <Content Include="config.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ADD_SECOBJ_CONFIG.ps1" />
     <Compile Include="DBA_STUFF.ps1" />
     <Compile Include="RESET.ps1" />
     <Compile Include="MIGRATE_AWS2.ps1" />

@@ -1,6 +1,6 @@
-﻿Set-StrictMode -Version Latest
-Describe 'DBATOOLHELPER' {
+﻿Describe 'DBATOOLHELPER' {
 	$test = Return1
+		$test3 = Return3
 	$sqlinstance = "(LocalDb)\MSSQLLocalDB"
 	$amount = 3
 	$dbs = @()
@@ -18,10 +18,11 @@ Describe 'DBATOOLHELPER' {
 		}
 	}
 
-	It 'CheckFunc1' {
-		
+	It 'CheckFunc1' {	
 		$test | Should -Be 1
-
+	}
+		It 'CheckFunc3' {	
+		$test3 | Should -Be 3
 	}
 	#AfterAll {
 		for ($i=1; $i -lt $amount+1; $i++){

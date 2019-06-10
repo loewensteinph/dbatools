@@ -48,3 +48,10 @@ function Return2 {
 #    )
 return 2
 }
+
+function Return3 {
+#param(
+#    [DateTime] $start = [DateTime]::Today
+#    )
+return 3
+}

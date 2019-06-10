@@ -1,0 +1,26 @@
+﻿{
+  "aws": "AWS1",
+  "credential": [
+    "cred1"
+  ],
+  "database": [
+    "db1",
+    "db2",
+    "db3"
+  ],
+  "dstserver": [
+    "SRV1",
+    "SRV2",
+    "SRV3"
+  ],
+  "linkedserver": [
+    "ls1"
+  ],
+  "login": [
+    "login1",
+    "login2",
+    "login3"
+  ],
+  "srcserver": "(localdb)\\MSSQLLocalDB",
+  "whatif": true
+}

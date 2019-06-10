@@ -32,12 +32,19 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="test\" />
+    <Folder Include="test\config\" />
+  </ItemGroup>
   <ItemGroup>
     <Compile Include="DBATOOLHELPER.psd1" />
     <Compile Include="DBATOOLHELPER.psm1" />
     <Compile Include="DBATOOLHELPER.tests.ps1" />
     <Compile Include="INSTALLMODULE.ps1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="test\config\securityconfig.json" />
+    <Content Include="test\config\config.json" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />

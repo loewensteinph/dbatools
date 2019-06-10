@@ -1,0 +1,46 @@
+﻿{
+  "aws": "AWS1",
+  "login": [
+    {
+      "name": "SqlLogin1",
+      "issqllogin": true
+    },
+    {
+      "name": "WKLOEWENSTPH01\\HTT1234",
+      "issqllogin": false
+    }
+  ],
+  "credential": [
+    {
+      "name": "cred1",
+      "description" : "ETL User",
+      "identity": "WKLOEWENSTPH01\\HTT1234",
+      "proxy": [
+        {
+          "name": "prox1",
+          "subsystem": [
+            "CmdExec",
+            "PowerShell",
+            "Ssis"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cred2",
+      "description": "Housekeeping User",
+      "identity": "WKLOEWENSTPH01\\HTT1234",
+      "proxy": [
+        {
+          "name": "prox2",
+          "subsystem": [
+            "CmdExec",
+            "PowerShell"
+          ]
+        }
+      ]
+    }
+  ],
+  "server": "WKLOEWENSTPH01\\SQL2017",
+  "whatif": true
+}

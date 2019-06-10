@@ -1,0 +1,9 @@
+﻿{
+  "aws": "AWS1",
+  "login": {
+    "name": "login1",
+    "issqllogin" : false
+  },
+  "server": "(localdb)\\MSSQLLocalDB",
+  "whatif": true
+}
